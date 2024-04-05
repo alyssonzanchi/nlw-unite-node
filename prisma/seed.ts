@@ -22,7 +22,7 @@ async function seed() {
 
     for(let i = 0; i <= 120; i++) {
         attendeesToInsert.push({
-            id: 10000 + 1,
+            id: 10000 + i,
             name: faker.person.fullName(),
             email: faker.internet.email(),
             eventId,
